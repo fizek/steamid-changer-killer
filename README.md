@@ -1,6 +1,7 @@
 # steamid-changer-killer
 How to protect srcds from steamid-changer.
 
+CURRENT STATUS: NOT READY
 For polish version follow this link: https://fizek.pl/sck (TBD)
 
 
