@@ -45,7 +45,7 @@ do
                 logfile2='/sourcecs/logi/dd2/blokady/cod-rcon-logtemp2'
                 banip=('[[:space:]]188\.112\.')
                 check_player "${logfile}" "${logfile2}" "${banip[@]}" "${serw}"
-        elif [ ${serw} = 'fun' ] 2>/dev/null;then
+        else [ ${serw} = 'fun' ] 2>/dev/null;then
                 logfile='/sourcecs/logi/fun/fun-rcon-logtemp'
                 logfile2='/sourcecs/logi/dd2/blokady/fun-rcon-logtemp2'
                 banip=('[[:space:]]37\.47\.' '[[:space:]]188\.112\.')
